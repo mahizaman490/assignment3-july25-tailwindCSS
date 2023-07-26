@@ -14,8 +14,8 @@
 <body>
     <header>
        <!-- navbar -->
-<nav class="container  mx-auto text-white my-8">
-    <div class="navbar  bg-[#f53b3b] rounded-full">
+<nav class="container  mx-auto lg:text-white my-8">
+    <div class="navbar lg:bg-[#f53b3b] rounded-full">
        
        
         <div class="navbar-start">
@@ -50,12 +50,21 @@
                     <span class="text-3xl font-bold">Fruit Burst</span>
               </div>
         </div>
-        <div class="navbar-end">
-            <input type="text" placeholder="Search here" class="input input-bordered w-full max-w-xs rounded-full mr-4" />
-            <i class="fa-solid fa-magnifying-glass text-gray-600 absolute mr-8"></i>
+        <div class="navbar-end  ">
+            <input type="text" placeholder="Search here" class="input lg:input-bordered w-0 lg:w-full max-w-xs rounded-full mr-4" />
+            <i class="fa-solid fa-magnifying-glass hidden lg:block md:text-gray-600 absolute mr-8"></i>
            
 
         </div>
+
+        <!-- small device logo -->
+        <div class="navbar-end lg:hidden flex">
+        <img src="./images/logo.png" alt="" class="">
+        <span class=" font-bold">Fruit Burst</span>
+         
+
+      </div>
+
       
 </div>
 <!--small device nav  -->
@@ -64,27 +73,34 @@
 <!-- banner starts here -->
 
 <div class="container  mx-auto">
+  
     <div class="carousel min-h-screen w-full">
+   
     <div id="slide1" class="carousel-item relative w-full ">
+    
 <!-- description -->
-<div class="text-white container text-center mx-auto md:mt-[20%] md:my-[10%]   md:space-y-5 absolute">
-    <h1 class="md:text-5xl font-bold">Exotic tastes at your <br>doorstep</h1>
+<div class="text-white container text-center mx-auto my-64 md:mt-[20%] md:my-[10%]   space-y-5 absolute">
+    <h1 class=" text-3xl md:text-5xl font-bold">Exotic tastes at your <br>doorstep</h1>
     <p class="md:font-bold">we supply highly quality organic fruits</p>
      <button class="btn font-bold text-white bg-[#f53b3b] border-none ">Shop Now</button>
 </div>
-      <img src="./images/banner1.png" class="w-full hero-overlay  " />
+
+      <img src="./images/banner1.png" class="w-full" />
+       <!-- opacity -->
+  
       <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+       
         <a href="#slide4" class="btn btn-circle">❮</a> 
         <a href="#slide2" class="btn btn-circle">❯</a>
       </div>
     </div> 
     <div id="slide2" class="carousel-item relative w-full">
-        <!-- description -->
-        <div class="text-white container text-center mx-auto md:mt-[20%] md:my-[10%]   md:space-y-5 absolute">
-          <h1 class="md:text-5xl font-bold">Exotic tastes at your <br>doorstep</h1>
-          <p class="md:font-bold">we supply highly quality organic fruits</p>
-           <button class="btn font-bold text-white bg-[#f53b3b] border-none ">Shop Now</button>
-      </div>
+    <!-- description -->
+<div class="text-white container text-center mx-auto my-64 md:mt-[20%] md:my-[10%]   space-y-5 absolute">
+  <h1 class=" text-3xl md:text-5xl font-bold">Exotic tastes at your <br>doorstep</h1>
+  <p class="md:font-bold">we supply highly quality organic fruits</p>
+   <button class="btn font-bold text-white bg-[#f53b3b] border-none ">Shop Now</button>
+</div>
       <img src="./images/banner2.png" class="w-full" />
       <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
         <a href="#slide1" class="btn btn-circle">❮</a> 
@@ -92,12 +108,12 @@
       </div>
     </div> 
     <div id="slide3" class="carousel-item relative w-full">
-        <!-- description -->
-        <div class="text-white container text-center mx-auto md:mt-[20%] md:my-[10%]   md:space-y-5 absolute">
-          <h1 class="md:text-5xl font-bold">Exotic tastes at your <br>doorstep</h1>
-          <p class="md:font-bold">we supply highly quality organic fruits</p>
-           <button class="btn font-bold text-white bg-[#f53b3b] border-none ">Shop Now</button>
-      </div>
+<!-- description -->
+<div class="text-white container text-center mx-auto my-64 md:mt-[20%] md:my-[10%]   space-y-5 absolute">
+  <h1 class=" text-3xl md:text-5xl font-bold">Exotic tastes at your <br>doorstep</h1>
+  <p class="md:font-bold">we supply highly quality organic fruits</p>
+   <button class="btn font-bold text-white bg-[#f53b3b] border-none ">Shop Now</button>
+</div>
       <img src="./images/banner3.png" class="w-full" />
       <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
         <a href="#slide2" class="btn btn-circle">❮</a> 
@@ -105,12 +121,12 @@
       </div>
     </div> 
     <div id="slide4" class="carousel-item relative w-full">
-        <!-- description -->
-        <div class="text-white container text-center mx-auto md:mt-[20%] md:my-[10%]   md:space-y-5 absolute">
-          <h1 class="md:text-5xl font-bold">Exotic tastes at your <br>doorstep</h1>
-          <p class="md:font-bold">we supply highly quality organic fruits</p>
-           <button class="btn font-bold text-white bg-[#f53b3b] border-none ">Shop Now</button>
-      </div>
+<!-- description -->
+<div class="text-white container text-center mx-auto my-64 md:mt-[20%] md:my-[10%]   space-y-5 absolute">
+  <h1 class=" text-3xl md:text-5xl font-bold">Exotic tastes at your <br>doorstep</h1>
+  <p class="md:font-bold">we supply highly quality organic fruits</p>
+   <button class="btn font-bold text-white bg-[#f53b3b] border-none ">Shop Now</button>
+</div>
       <img src="./images/banner4.png" class="w-full" />
       <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
         <a href="#slide3" class="btn btn-circle">❮</a> 
@@ -345,7 +361,8 @@
   <!-- single -->
   <div class="text-center p-12 md:p-8 md:text-start space-y-2">
     <div class="md:flex items-center gap-2">
-      <i class="fa-solid fa-user bg-gray-300 text-gray-500 md:mt-5 rounded-full w-8 text-center text-lg"></i>
+     
+      <i class="fa-solid fa-user-group bg-gray-300 text-gray-500 md:mt-5 rounded-full w-8 text-center text-lg"></i>
       <h3 class=" text-2xl font-bold border-2 border-l-0 border-r-0 border-t-0  border-gray-700">Dedicated Team</h3>
   
 
@@ -355,8 +372,9 @@
   </div>
   <div class="text-center p-12 md:p-8 md:text-start space-y-2">
     <div class="md:flex items-center gap-2">
-      <i class="fa-solid fa-user bg-gray-300 text-gray-500 md:mt-5 rounded-full w-8 text-center text-lg"></i>
-      <h3 class=" text-2xl font-bold border-2 border-l-0 border-r-0 border-t-0  border-gray-700">Fresh in best</h3>
+      
+      <i class="fa-solid fa-apple-whole bg-gray-300 text-gray-500 md:mt-5 rounded-full w-8 text-center text-lg"></i>
+      <h3 class=" text-2xl font-bold border-2 border-l-0 border-r-0 border-t-0  border-gray-700">Fresh fruits</h3>
   
 
       
@@ -366,7 +384,7 @@
 
   <div class="text-center p-12 md:p-8 md:text-start space-y-2">
     <div class="md:flex items-center gap-2">
-      <i class="fa-solid fa-user bg-gray-300 text-gray-500 md:mt-5 rounded-full w-8 text-center text-lg"></i>
+      <i class="fa-solid fa-gift  bg-gray-300 text-gray-500 md:mt-5 rounded-full w-8 text-center text-lg"></i>
       <h3 class=" text-2xl font-bold border-2 border-l-0 border-r-0 border-t-0  border-gray-700">Gift certificates</h3>
   
 
@@ -382,7 +400,8 @@
   <!-- single -->
   <div class="text-center p-12 md:p-8 md:text-end space-y-2">
     <div class="md:flex items-center md:justify-start md:text-end gap-2 flex-row-reverse ">
-    <i class="fa-solid fa-user bg-gray-300 text-gray-500 md:mt-5 rounded-full w-8 text-center text-lg"></i>
+      
+    <i class="fa-solid fa-heart bg-gray-300 text-gray-500 md:mt-5 rounded-full w-8 text-center text-lg"></i>
 
       <h3 class=" text-2xl font-bold border-2 border-l-0 border-r-0 border-t-0 md:text-right  border-gray-700">inteegrated supplier</h3>
     
@@ -404,7 +423,8 @@
   <!-- single -->
   <div class="text-center p-12 md:p-8 md:text-end space-y-2">
     <div class="md:flex items-center md:justify-start md:text-end gap-2 flex-row-reverse ">
-    <i class="fa-solid fa-user bg-gray-300 text-gray-500 md:mt-5 rounded-full w-8 text-center text-lg"></i>
+      
+    <i class="fa-solid fa-hand-holding-medical bg-gray-300 text-gray-500 md:mt-5 rounded-full w-8 text-center text-lg"></i>
 
       <h3 class=" text-2xl font-bold border-2 border-l-0 border-r-0 border-t-0 md:text-right  border-gray-700">The benefits only</h3>
     
