@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fruit Burst</title>
     <!-- tailwindcss and daisyui links -->
     
 <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
@@ -14,8 +14,8 @@
 <body>
     <header>
        <!-- navbar -->
-<nav class="container mx-auto text-white my-8">
-    <div class="navbar bg-[#f53b3b] rounded-full">
+<nav class="container  mx-auto text-white my-8">
+    <div class="navbar  bg-[#f53b3b] rounded-full">
        
        
         <div class="navbar-start">
@@ -58,16 +58,16 @@
         </div>
       
 </div>
-
+<!--small device nav  -->
 
 </nav>
 <!-- banner starts here -->
 
-<div class="container mx-auto">
-    <div class="carousel  w-full">
+<div class="container  mx-auto">
+    <div class="carousel min-h-screen w-full">
     <div id="slide1" class="carousel-item relative w-full ">
 <!-- description -->
-<div class="text-white container text-center mx-auto my-[10%]   md:space-y-5 absolute">
+<div class="text-white container text-center mx-auto md:mt-[20%] md:my-[10%]   md:space-y-5 absolute">
     <h1 class="md:text-5xl font-bold">Exotic tastes at your <br>doorstep</h1>
     <p class="md:font-bold">we supply highly quality organic fruits</p>
      <button class="btn font-bold text-white bg-[#f53b3b] border-none ">Shop Now</button>
@@ -80,11 +80,11 @@
     </div> 
     <div id="slide2" class="carousel-item relative w-full">
         <!-- description -->
-<div class="text-white text-center mt-5 md:mt-9 ml-12 space-y-1  md:space-y-7 absolute md:mt-16 md:ml-96">
-    <h1 class="md:text-5xl font-bold">Exotic tastes at your <br>doorstep</h1>
-    <p class="md:font-bold">we supply highly quality organic fruits</p>
-     <button class="btn font-bold text-white bg-[#f53b3b] border-none ">Shop Now</button>
-</div>
+        <div class="text-white container text-center mx-auto md:mt-[20%] md:my-[10%]   md:space-y-5 absolute">
+          <h1 class="md:text-5xl font-bold">Exotic tastes at your <br>doorstep</h1>
+          <p class="md:font-bold">we supply highly quality organic fruits</p>
+           <button class="btn font-bold text-white bg-[#f53b3b] border-none ">Shop Now</button>
+      </div>
       <img src="./images/banner2.png" class="w-full" />
       <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
         <a href="#slide1" class="btn btn-circle">❮</a> 
@@ -93,11 +93,11 @@
     </div> 
     <div id="slide3" class="carousel-item relative w-full">
         <!-- description -->
-<div class="text-white text-center mt-5 md:mt-9 ml-12 space-y-1  md:space-y-7 absolute md:mt-16 md:ml-96">
-    <h1 class="md:text-5xl font-bold">Exotic tastes at your <br>doorstep</h1>
-    <p class="md:font-bold">we supply highly quality organic fruits</p>
-     <button class="btn font-bold text-white bg-[#f53b3b] border-none ">Shop Now</button>
-</div>
+        <div class="text-white container text-center mx-auto md:mt-[20%] md:my-[10%]   md:space-y-5 absolute">
+          <h1 class="md:text-5xl font-bold">Exotic tastes at your <br>doorstep</h1>
+          <p class="md:font-bold">we supply highly quality organic fruits</p>
+           <button class="btn font-bold text-white bg-[#f53b3b] border-none ">Shop Now</button>
+      </div>
       <img src="./images/banner3.png" class="w-full" />
       <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
         <a href="#slide2" class="btn btn-circle">❮</a> 
@@ -106,11 +106,11 @@
     </div> 
     <div id="slide4" class="carousel-item relative w-full">
         <!-- description -->
-<div class="text-white text-center mt-5 md:mt-9 ml-12 space-y-1  md:space-y-7 absolute md:mt-16 md:ml-96">
-    <h1 class="md:text-5xl font-bold">Exotic tastes at your <br>doorstep</h1>
-    <p class="md:font-bold">we supply highly quality organic fruits</p>
-     <button class="btn font-bold text-white bg-[#f53b3b] border-none ">Shop Now</button>
-</div>
+        <div class="text-white container text-center mx-auto md:mt-[20%] md:my-[10%]   md:space-y-5 absolute">
+          <h1 class="md:text-5xl font-bold">Exotic tastes at your <br>doorstep</h1>
+          <p class="md:font-bold">we supply highly quality organic fruits</p>
+           <button class="btn font-bold text-white bg-[#f53b3b] border-none ">Shop Now</button>
+      </div>
       <img src="./images/banner4.png" class="w-full" />
       <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
         <a href="#slide3" class="btn btn-circle">❮</a> 
@@ -119,17 +119,57 @@
     </div>
   </div>
 </div>
+<!-- banner fruits -->
+<div class="container -mt-32 relative mx-auto shadow-xl hidden md:flex justify-center items-center text-center bg-white max-w-6xl py-10">
+
+  <div class="text-center gap-8 flex flex-col md:flex-row">
+    <!-- single -->
+   <div class="text-center">
+    <img src="./images/fruit1.png" alt="" class="mx-auto">
+    
+    <p>Fruit expert</p>
+  
+   </div>
+   <div class="text-center">
+    <img src="./images/fruit2.png" alt="" class="mx-auto">
+    
+    <p>Orange</p>
+  
+   </div>
+   <div class="text-center">
+    <img src="./images/fruit3.png" alt="" class="mx-auto">
+    
+    <p>Mango</p>
+  
+   </div>
+   <div class="text-center">
+    <img src="./images/fruit4.png" alt="" class="mx-auto">
+    
+    <p>Strawberry</p>
+  
+   </div>
+   <div class="text-center">
+    <img src="./images/fruit5.png" alt="" class="mx-auto">
+    
+    <p>Fruit expert</p>
+  
+   </div>
+
+</div>
+
+</div>
+
 
     </header>
     <main>
  <!-- deal of the day section -->
  <section class="container mx-auto my-10 md:my-80 ">
-<div class="flex ">
-    <div class="flex-1 space-y-5">
+<div class="md:flex  text-center md:text-left ">
+    <div class="flex-1 space-y-9 md:space-y-5">
      <h2 class="font-bold text-4xl">Deal of the day</h2>
      <p> Fruits are a rich source of vitamins, minerals, fibres and proteins. We should eat fresh fruits to keep ourselves healthy. we always supply best products to our clients.</p>
     </div>
-    <div class="flex-1 ">
+    <div class="flex-1 mt-6 mb-6">
         <div class="grid grid-flow-col gap-5 text-center justify-end auto-cols-max">
             <div class="flex flex-col">
               <span class="countdown font-mono text-5xl">
@@ -294,7 +334,88 @@
   </div>
   
 </section>
+<!-- why choose us section -->
+<section class="container mx-auto">
+  <div class="text-center">
+    <h2 class="text-4xl font-bold">Why Choose Us</h2>
+    <p class="mb-5">Ours have a reputation that we always provide best products to our clients. <br> and we always try to dalivery on time</p>
+  </div>
+<div class="md:flex items-center md:flex-row">
+<div class="flex-1 ">
+  <!-- single -->
+  <div class="text-center p-12 md:p-8 md:text-start space-y-2">
+    <div class="md:flex items-center gap-2">
+      <i class="fa-solid fa-user bg-gray-300 text-gray-500 md:mt-5 rounded-full w-8 text-center text-lg"></i>
+      <h3 class=" text-2xl font-bold border-2 border-l-0 border-r-0 border-t-0  border-gray-700">Dedicated Team</h3>
+  
 
+      
+    </div>
+     <p class="md:pl-6"> we always provide best products to our clients.and we always try to dalivery on time</p>
+  </div>
+  <div class="text-center p-12 md:p-8 md:text-start space-y-2">
+    <div class="md:flex items-center gap-2">
+      <i class="fa-solid fa-user bg-gray-300 text-gray-500 md:mt-5 rounded-full w-8 text-center text-lg"></i>
+      <h3 class=" text-2xl font-bold border-2 border-l-0 border-r-0 border-t-0  border-gray-700">Fresh in best</h3>
+  
+
+      
+    </div>
+     <p class="md:pl-6"> we always provide best products to our clients.and we always try to dalivery on time</p>
+  </div>
+
+  <div class="text-center p-12 md:p-8 md:text-start space-y-2">
+    <div class="md:flex items-center gap-2">
+      <i class="fa-solid fa-user bg-gray-300 text-gray-500 md:mt-5 rounded-full w-8 text-center text-lg"></i>
+      <h3 class=" text-2xl font-bold border-2 border-l-0 border-r-0 border-t-0  border-gray-700">Gift certificates</h3>
+  
+
+      
+    </div>
+     <p class="md:pl-6"> we always provide best products to our clients.and we always try to dalivery on time</p>
+  </div>
+</div>
+<div class="flex-1 ">
+<img src="./images/whychoose1.png" alt="">
+</div>
+<div class="flex-1 md:justify-end ">
+  <!-- single -->
+  <div class="text-center p-12 md:p-8 md:text-end space-y-2">
+    <div class="md:flex items-center md:justify-start md:text-end gap-2 flex-row-reverse ">
+    <i class="fa-solid fa-user bg-gray-300 text-gray-500 md:mt-5 rounded-full w-8 text-center text-lg"></i>
+
+      <h3 class=" text-2xl font-bold border-2 border-l-0 border-r-0 border-t-0 md:text-right  border-gray-700">inteegrated supplier</h3>
+    
+      
+    </div>
+     <p class="md:pl-6"> we always provide best products to our clients.and we always try to dalivery on time</p>
+  </div>
+  <!-- single -->
+  <div class="text-center p-12 md:p-8 md:text-end space-y-2">
+    <div class="md:flex items-center md:justify-start md:text-end gap-2 flex-row-reverse ">
+    <i class="fa-solid fa-user bg-gray-300 text-gray-500 md:mt-5 rounded-full w-8 text-center text-lg"></i>
+
+      <h3 class=" text-2xl font-bold border-2 border-l-0 border-r-0 border-t-0 md:text-right  border-gray-700">Sustainable practice</h3>
+    
+      
+    </div>
+     <p class="md:pl-6"> we always provide best products to our clients.and we always try to dalivery on time</p>
+  </div>
+  <!-- single -->
+  <div class="text-center p-12 md:p-8 md:text-end space-y-2">
+    <div class="md:flex items-center md:justify-start md:text-end gap-2 flex-row-reverse ">
+    <i class="fa-solid fa-user bg-gray-300 text-gray-500 md:mt-5 rounded-full w-8 text-center text-lg"></i>
+
+      <h3 class=" text-2xl font-bold border-2 border-l-0 border-r-0 border-t-0 md:text-right  border-gray-700">The benefits only</h3>
+    
+      
+    </div>
+     <p class="md:pl-6"> we always provide best products to our clients.and we always try to dalivery on time</p>
+  </div>
+</div>
+</div>
+
+</section>
     </main>
     
         <footer class="footer footer-center p-10 bg-black text-base-content text-white rounded container mx-auto">
